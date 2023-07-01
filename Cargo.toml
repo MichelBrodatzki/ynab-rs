@@ -1,0 +1,9 @@
+[package]
+name = "ynab-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+either = "1.8.1"
+reqwest = { version = "0.11.18", features = ["json"] }
+serde = { version = "1.0.164", features = ["derive"] }
